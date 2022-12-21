@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --color-fondo: #000051;
+    --color-2: #00e5ff;
+    --color-3 : #3f51b5;
+}
+
+body{
+    background-color: var(--color-fondo);
+    font-family: 'Cabin', sans-serif;
+    color: aliceblue;
+}
