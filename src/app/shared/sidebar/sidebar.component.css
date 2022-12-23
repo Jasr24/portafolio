@@ -1,0 +1,47 @@
+.wrapper{
+    padding: 1rem;
+}
+
+.pre-title{
+    padding: 0.5rem 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(193, 205, 216);
+    animation-delay: 0.6s;
+}
+
+.title{
+    font-size: 4rem;
+    animation-delay: 1.2s;
+    height: 9rem;
+}
+
+.sub-title{
+    padding: 0.5rem 0;
+    animation-delay: 1.9s;
+}
+
+.descripcion{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: .2px;
+    color: rgb(193, 205, 216);
+    animation-delay: 2.5s;
+}
+
+hr{
+    animation-delay: 3.5s;
+    width: 90%;
+    margin-left: 2.5%;
+}
+
+.foto-perfil{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.foto-perfil-img{
+    animation-delay: 3s;
+    width: 100%;
+    border-radius: 5%;
+} 

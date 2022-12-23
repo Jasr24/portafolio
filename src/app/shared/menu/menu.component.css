@@ -17,5 +17,15 @@
 }
 
 .item-menu{
+    cursor: pointer;
     padding: 0 1rem;
+    transition: all ease 200ms;
+}
+.item-menu :hover{
+    opacity: 0.8;
+}
+
+.item-number{
+    color: var(--color-2);
+    padding: 0 .5rem;
 }
