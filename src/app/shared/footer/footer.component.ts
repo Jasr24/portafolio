@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  links: Array<LinkModel> = [
+    {
+      link: 'https://www.linkedin.com/in/joséandressaavedraromero/',
+      icon: '<i class="uil uil-linkedin"></i>'
+    },
+    {
+      link: 'https://github.com/Jasr24',
+      icon: '<i class="uil uil-github"></i>'
+    },
+    {
+      link: 'mailto:josex.1995@hotmail.com',
+      icon: '<i class="uil uil-envelope"></i>'
+    }
+  ]
+
+}
+
+class LinkModel {
+  link!: string;
+  icon!: string;
 }
