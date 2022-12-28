@@ -4,7 +4,7 @@
         <div class="links d-flex flex-wrap">
             <div class="block" *ngFor="let linkObj of links">
                 <a [href]="linkObj.link" target="_blank">
-                    <span [innerHTML]="linkObj.icon"></span>
+                    <span class="hover animate__animated animate__rubberBand" [innerHTML]="linkObj.icon"></span>
                 </a>
             </div>
         </div>

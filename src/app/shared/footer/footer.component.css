@@ -18,3 +18,12 @@
     padding: 0 2.5rem;
 }
 
+.hover{
+    transition: 0.5s;
+}
+
+.hover:hover{
+    color: var(--color-2);
+    font-size: 2.8rem;
+}
+

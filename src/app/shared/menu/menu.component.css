@@ -7,6 +7,7 @@
     height: 4rem;
     border-bottom: solid 1px rgb(41, 39, 39);
     box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.29);
+    font-size: 1.3rem;
 }
 
 .list-menu{
@@ -17,7 +18,6 @@
 }
 
 .item-menu{
-    cursor: pointer;
     padding: 0 1rem;
     transition: all ease 200ms;
 }
@@ -26,6 +26,12 @@
 }
 
 .item-number{
+    cursor: default;
     color: var(--color-2);
     padding: 0 .5rem;
+}
+
+.cv{
+    text-decoration: none;
+    font-weight: 600;
 }

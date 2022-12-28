@@ -5,7 +5,7 @@
 .pre-title{
     padding: 0.5rem 0;
     font-family: 'IBM Plex Sans', sans-serif;
-    color: rgb(193, 205, 216);
+    color: var(--texto-parrafo);
     animation-delay: 0.6s;
 }
 
@@ -21,11 +21,12 @@
 }
 
 .descripcion{
+    text-align: justify;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.2rem;
-    line-height: 1.8rem;
+    line-height: 1.4rem; 
     letter-spacing: .2px;
-    color: rgb(193, 205, 216);
+    color: var(--texto-parrafo);
     animation-delay: 2.5s;
 }
 
