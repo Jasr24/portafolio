@@ -1,0 +1,18 @@
+.wrapper{
+    margin-top: 1rem;
+}
+
+.grupo{
+    min-height: calc(100vh - 11rem);
+    /* max-height: calc(100vh - 8rem); */
+}
+
+mat-tab-group {
+    background-color: var(--color-grupo);
+    color: var(--texto);
+    padding: 5px;
+}  
+
+mat-tab {
+
+}
