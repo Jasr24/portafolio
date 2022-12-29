@@ -7,6 +7,8 @@ import { MatCardModule } from '@angular/material/card';
 import { EducacionFormalComponent } from './components/educacion-formal/educacion-formal.component';
 import { EducacionComplementariaComponent } from './components/educacion-complementaria/educacion-complementaria.component';
 import { HabilidadComponent } from './components/habilidad/habilidad.component';
+import { HojaDeVidaComponent } from './pages/hoja-de-vida/hoja-de-vida.component';
+import { ContactemeComponent } from './pages/contacteme/contacteme.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HabilidadComponent } from './components/habilidad/habilidad.component';
     HabilidadesComponent,
     EducacionFormalComponent,
     EducacionComplementariaComponent,
-    HabilidadComponent
+    HabilidadComponent,
+    HojaDeVidaComponent,
+    ContactemeComponent
   ],
   imports: [
     CommonModule,
@@ -22,7 +26,9 @@ import { HabilidadComponent } from './components/habilidad/habilidad.component';
   ],
   exports: [
     FormacionComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    HojaDeVidaComponent,
+    ContactemeComponent
   ]
 })
 export class ContenidoModule { }
