@@ -6,13 +6,15 @@ import { HabilidadesComponent } from './pages/habilidades/habilidades.component'
 import { MatCardModule } from '@angular/material/card';
 import { EducacionFormalComponent } from './components/educacion-formal/educacion-formal.component';
 import { EducacionComplementariaComponent } from './components/educacion-complementaria/educacion-complementaria.component';
+import { HabilidadComponent } from './components/habilidad/habilidad.component';
 
 @NgModule({
   declarations: [
     FormacionComponent,
     HabilidadesComponent,
     EducacionFormalComponent,
-    EducacionComplementariaComponent
+    EducacionComplementariaComponent,
+    HabilidadComponent
   ],
   imports: [
     CommonModule,

@@ -7,3 +7,8 @@ export interface IEducacion {
     duracion?: string
     credencial?: string
   }
+
+  export interface IHabilidad {
+    logo: string;
+    nombre: string;
+  }

@@ -1,3 +1,29 @@
-<h2>Habilidades técnicas</h2>
+<div class="container mt-3">
 
-<h2>Habilidades blandas</h2>
+
+    <h4>Habilidades técnicas</h4>
+
+    <div class="row wrapper">
+
+        <div class="col-6 col-lg-3 cajas" *ngFor="let habilidad of tecnicas">
+
+            <app-habilidad [habilidad]="habilidad"></app-habilidad>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <h4>Habilidades blandas</h4>
+
+    <div class="row wrapper">
+
+        <div class="col-12 col-md-6 col-lg-3 cajas" *ngFor="let habilidad of blandas">
+            
+            <app-habilidad [habilidad]="habilidad"></app-habilidad>
+            
+        </div>
+        
+    </div>
+</div>
