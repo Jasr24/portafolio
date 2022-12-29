@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IEducacion } from '../../interfaces/general';
 
 @Component({
   selector: 'app-formacion',
@@ -7,22 +8,22 @@ import { Component } from '@angular/core';
 })
 export class FormacionComponent {
 
-  formal: educacion[] = [
+  formal: IEducacion[] = [
     {
-      logo: './assets/sena.png',
+      logo: 'assets/sena.png',
       institucion: 'Servicio naional de apredizaje (SENA)',
       programa: 'Tecnologo en analisis y desarrollo de Software',
       fechas: 'nov. 2022 - feb. 2025'
     },
     {
-      logo: './assets/politecnico.png',
+      logo: 'assets/politecnico.png',
       institucion: 'Politécnico Tolimense',
       programa: 'Técnico laboral por competencias en sistemas y desarrollo de Software',
       credencial: 'https://drive.google.com/file/d/1BnZbzo50VdUF7nIzHTtXZLqbis4C-gEs/view?usp=sharing',
       fechas: 'jul. 2019 - ago. 2020'
     },
     {
-      logo: './assets/sena.png',
+      logo: 'assets/sena.png',
       institucion: 'Servicio naional de apredizaje (SENA)',
       programa: 'Tecnologo en control ambiental',
       credencial: 'https://drive.google.com/file/d/1LRW6Nkch8Ke607SzySX5KVCpmVIj8b9k/view?usp=sharing',
@@ -30,9 +31,9 @@ export class FormacionComponent {
     }
   ]
 
-  complementarios: educacion[] = [
+  complementarios: IEducacion[] = [
     {
-      logo: './assets/alura.jpg',
+      logo: 'assets/alura.jpg',
       institucion: 'Oracle Next Education',
       programa: 'Formación Front End G3- ONE',
       fechas: 'nov. 2022',
@@ -40,7 +41,7 @@ export class FormacionComponent {
       credencial: 'https://app.aluracursos.com/degree/certificate/3333660a-7e2a-496e-b255-2d2aac606f97'
     },
     {
-      logo: './assets/udemy.png',
+      logo: 'assets/udemy.png',
       institucion: 'Udemy',
       programa: 'Spring Boot, Thymeleaf, MySql, MongoDB, API Rest',
       fechas: 'nov. 2022',
@@ -48,7 +49,7 @@ export class FormacionComponent {
       credencial: 'https://www.udemy.com/certificate/UC-38f50d49-02e4-4758-a697-3cbc4e9702cb/'
     },
     {
-      logo: './assets/udemy.png',
+      logo: 'assets/udemy.png',
       institucion: 'Udemy',
       programa: 'Máster completo en Java de cero a experto 2022',
       fechas: 'sept. 2022',
@@ -56,7 +57,7 @@ export class FormacionComponent {
       credencial: 'https://www.udemy.com/certificate/UC-a5679112-bd9e-4358-955a-dc6d36abb919/'
     },
     {
-      logo: './assets/udemy.png',
+      logo: 'assets/udemy.png',
       institucion: 'Udemy',
       programa: 'Máster en SQL Server: Desde cero a nivel profesional',
       fechas: 'jul. 2022',
@@ -64,21 +65,21 @@ export class FormacionComponent {
       credencial: 'https://www.udemy.com/certificate/UC-1b459e5f-1fcc-4fc0-90c9-d9cebeabe0be/'
     },
     {
-      logo: './assets/oracle.png',
+      logo: 'assets/oracle.png',
       institucion: 'Oracle Academy',
       programa: 'Java Foundations',
       fechas: 'jun. 2022',
       credencial: 'https://drive.google.com/file/d/1icEBxxtLpC6ddH0BX3sLLLHlgV8QuIT0/view'
     },
     {
-      logo: './assets/oracle.png',
+      logo: 'assets/oracle.png',
       institucion: 'Oracle Academy',
       programa: 'Java Fundamentals',
       fechas: 'jun. 2022',
       credencial: 'https://drive.google.com/file/d/1iARYEA2C3bPTJ-815lr7ANa1WTg3xK1i/view'
     },
     {
-      logo: './assets/udemy.png',
+      logo: 'assets/udemy.png',
       institucion: 'Udemy',
       programa: 'TypeScript: Tu completa guía y manual de mano',
       fechas: 'ene. 2022',
@@ -87,13 +88,4 @@ export class FormacionComponent {
     }
   ]
 
-}
-
-class educacion {
-  logo!: string;
-  institucion!: string;
-  programa!: string;
-  fechas!: string;
-  duracion?: string
-  credencial?: string
 }

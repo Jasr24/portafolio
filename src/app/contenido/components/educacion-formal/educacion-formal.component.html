@@ -1,0 +1,31 @@
+<h2>Educacion formal</h2>
+
+<div class="row wrapper">
+
+    <div class="col-12 col-lg-4 cajas" *ngFor="let formacion of formal">
+
+        <mat-card class="caja">
+
+            <mat-card-header>
+                <mat-card-title class="title"><strong>{{formacion.institucion}}</strong></mat-card-title>
+                <mat-card-subtitle class="subtitle">{{formacion.programa}}</mat-card-subtitle>
+            </mat-card-header>
+
+            <mat-card-content>
+                <div class="row contenido">
+                    <img class="img" [src]="formacion.logo" alt="Imagen instituto">
+                    
+                    <ng-container *ngIf="formacion.credencial; else elseTemplate">
+                        <a class="col credencial" [href]="formacion.credencial" target="_blank">Credencial</a>
+                    </ng-container>
+                    <ng-template #elseTemplate>
+                        <p class="col">En proceso</p>
+                    </ng-template>                        
+                </div>
+
+                <p class="col mt-2" class="fechas">{{formacion.fechas}}</p>
+            </mat-card-content>
+        </mat-card>
+
+    </div>
+</div>
