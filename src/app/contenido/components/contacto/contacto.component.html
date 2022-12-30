@@ -1,0 +1,15 @@
+<mat-card class="card">
+
+    <mat-card-header class="header">
+
+        <a [href]="contacto.url" target="_blank">
+            <span class="logo col-2" mat-card-avatar [innerHTML]="contacto.logo"></span>
+        </a>
+        <div class="col-10">
+            <mat-card-title class="title">{{contacto.nombre}}</mat-card-title>
+            <mat-card-subtitle class="subtitle">{{contacto.nombreLink}}</mat-card-subtitle>
+        </div>
+
+    </mat-card-header>
+
+</mat-card>

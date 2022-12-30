@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ILinkModel } from 'src/app/contenido/interfaces/general';
 
 @Component({
   selector: 'app-footer',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-  links: Array<LinkModel> = [
+  links: Array<ILinkModel> = [
     {
       link: 'https://www.linkedin.com/in/joséandressaavedraromero/',
       icon: '<i class="uil uil-linkedin"></i>'
@@ -22,9 +23,4 @@ export class FooterComponent {
     }
   ]
 
-}
-
-class LinkModel {
-  link!: string;
-  icon!: string;
 }

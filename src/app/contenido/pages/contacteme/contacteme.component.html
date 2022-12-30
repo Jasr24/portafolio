@@ -1,1 +1,11 @@
-<p>contacteme works!</p>
+<div class="container mt-3">
+
+    <div class="row wrapper">
+
+        <div class="col-12 col-lg-6 cajas" *ngFor="let contacto of contactos">
+            <app-contacto [contacto]="contacto"></app-contacto>
+        </div>
+
+    </div>
+
+</div>

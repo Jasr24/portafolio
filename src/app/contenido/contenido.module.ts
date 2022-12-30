@@ -9,6 +9,7 @@ import { EducacionComplementariaComponent } from './components/educacion-complem
 import { HabilidadComponent } from './components/habilidad/habilidad.component';
 import { HojaDeVidaComponent } from './pages/hoja-de-vida/hoja-de-vida.component';
 import { ContactemeComponent } from './pages/contacteme/contacteme.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactemeComponent } from './pages/contacteme/contacteme.component';
     EducacionComplementariaComponent,
     HabilidadComponent,
     HojaDeVidaComponent,
-    ContactemeComponent
+    ContactemeComponent,
+    ContactoComponent
   ],
   imports: [
     CommonModule,

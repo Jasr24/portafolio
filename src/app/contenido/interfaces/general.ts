@@ -12,3 +12,15 @@ export interface IEducacion {
     logo: string;
     nombre: string;
   }
+
+  export interface IContacto {
+    logo: string;
+    nombre: string;
+    nombreLink: string;
+    url: string;
+  }
+
+  export interface ILinkModel {
+    link: string;
+    icon: string;
+  }

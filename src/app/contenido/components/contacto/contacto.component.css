@@ -1,0 +1,30 @@
+.card{
+    height: 100%;
+    padding: 1rem 0;
+    background-color: var(--color-fondo);
+    color: var(--texto);
+}
+
+.header{
+    padding: 0.5rem 1rem;
+}
+
+.logo{
+    font-size: 1.8rem;
+    transition: 0.5s;
+    margin-right: 1rem;
+}
+
+.logo:hover {
+    color: var(--color-2);
+    font-size: 2rem;
+}
+
+.title{
+    line-height: 25px;
+}
+
+.subtitle{
+    line-height: 14px;
+    color: var(--texto-parrafo);
+}
