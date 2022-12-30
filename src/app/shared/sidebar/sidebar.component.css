@@ -1,9 +1,4 @@
-.wrapper{
-    padding: 1rem;
-}
-
 .pre-title{
-    padding: 0.5rem 0;
     font-family: 'IBM Plex Sans', sans-serif;
     color: var(--texto-parrafo);
     animation-delay: 0.6s;
