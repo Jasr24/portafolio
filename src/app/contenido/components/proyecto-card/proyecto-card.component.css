@@ -1,0 +1,55 @@
+.caja{
+    background-color: var(--color-fondo);
+    height: 100%;
+}
+
+.title{
+    color: var(--texto);
+    overflow-wrap: break-word;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.subtitle{
+    color: var(--texto-parrafo);
+}
+
+hr{
+    margin: 0 0 1rem 0;
+    color: var(--texto);
+    border-top: 2px solid;
+    opacity: .25;
+}
+
+.descripcion{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: justify;
+    overflow-wrap: break-word;
+    color: var(--texto-parrafo);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2px;
+}
+
+.contenido{
+    text-align: center;
+}
+
+.url{
+    background-color: var(--color-grupo);
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    padding: 1rem;
+    border-radius: 5%;
+    color: var(--texto);
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.url:hover{
+    background-color: var(--color-2);
+}
+
+i{
+    color: var(--texto-parrafo);
+    font-size: 1.3rem;
+}

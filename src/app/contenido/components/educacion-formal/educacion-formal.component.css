@@ -14,11 +14,14 @@
 .title{
     font-size: 1.2rem; 
     color: var(--texto);
+    line-height: 1.4rem;
+    margin-bottom: 0.5rem;
 }
 
 .subtitle{
     color: var(--texto-parrafo);
     margin-bottom: 1rem;
+    line-height: 1.2rem;
 }
 
 .contenido{

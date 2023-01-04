@@ -1,0 +1,23 @@
+<mat-card class="caja">
+
+    <mat-card-header>
+        <div class="col-12">
+            <mat-card-title class="title"><strong>{{repo.name | titlecase}}</strong></mat-card-title>
+            <mat-card-subtitle class="subtitle">{{repo.created_at | date}}</mat-card-subtitle>
+            <hr>
+        </div>
+    </mat-card-header>
+
+    <mat-card-content>
+        <p class="col mt-2" class="descripcion">{{repo.description}}</p>
+
+        <div class="row contenido">
+
+            <a class="col url" [href]="repo.html_url" target="_blank">GitHub <i class="uil uil-external-link-alt"></i></a>
+            <a class="col url" [href]="repo.page" target="_blank">Page <i class="uil uil-external-link-alt"></i></a>
+
+        </div>
+
+    </mat-card-content>
+
+</mat-card>

@@ -18,14 +18,6 @@ export class HabilidadesComponent {
       nombre: 'JavaScript'
     },
     {
-      logo: 'assets/html.png',
-      nombre: 'HTML'
-    },
-    {
-      logo: 'assets/css.png',
-      nombre: 'CSS'
-    },
-    {
       logo: 'assets/java.png',
       nombre: 'Java'
     },
@@ -34,12 +26,12 @@ export class HabilidadesComponent {
       nombre: 'SpringBoot'
     },
     {
-      logo: 'assets/git.png',
-      nombre: 'Git'
+      logo: 'assets/mysql.png',
+      nombre: 'Mysql'
     },
     {
-      logo: 'assets/githup.png',
-      nombre: 'GitHup'
+      logo: 'assets/git.png',
+      nombre: 'Git'
     }
   ]
 
