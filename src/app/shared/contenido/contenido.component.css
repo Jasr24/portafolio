@@ -1,14 +1,21 @@
 .grupo{
-    min-height: calc(100vh - 11rem);
-    /* max-height: calc(100vh - 8rem); */
+    height: calc(100vh - 7.5rem);
+    max-height: calc(100vh - 7.5rem);
+}
+
+@media (max-width: 767px) {
+    .grupo{
+        height: calc(100vh - 4.5rem);
+        max-height: calc(100vh - 4.5rem);
+    }
 }
 
 mat-tab-group {
-    background-color: var(--color-grupo);
-    color: var(--texto);
+    background-color: var(--color-grupo) !important;
     padding: 5px;
 }  
 
-mat-tab {
-
+.mat-mdc-tab-group.mat-background-primary, .mat-mdc-tab-nav-bar.mat-background-primary {
+    --mat-mdc-tab-header-with-background-background-color: var(--color-grupo);
+    --mat-mdc-tab-header-with-background-foreground-color: var(--texto);
 }

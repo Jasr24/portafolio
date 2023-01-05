@@ -1,5 +1,5 @@
 .pie-pagina{
-    height: 4rem;
+    height: 3rem;
     background: linear-gradient(var(--color-fondo), #1f3177);
     animation-delay: 3.7s;
 }
@@ -10,7 +10,7 @@
 
 .links{
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .block{
@@ -23,6 +23,5 @@
 
 .hover:hover{
     color: var(--color-2);
-    font-size: 2.8rem;
 }
 

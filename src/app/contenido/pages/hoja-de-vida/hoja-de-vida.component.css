@@ -5,16 +5,15 @@
 .icono{
     font-size: 1.8rem;
     margin-right: 0.5rem;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .icono:hover{
-    font-size: 2rem;
     color: var(--color-2);
 }
 
 .cv {
     border:1px solid var(--color-fondo);
-    min-height: 40rem;
+    height: calc(100vh - 15.3rem);
     width: 100%;
 }

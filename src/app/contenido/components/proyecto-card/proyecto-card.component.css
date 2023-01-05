@@ -27,8 +27,8 @@ hr{
     overflow-wrap: break-word;
     color: var(--texto-parrafo);
     font-size: 1.2rem;
-    line-height: 1.4rem;
-    letter-spacing: 0.2px;
+    line-height: 1.3rem;
+    letter-spacing: 0.1px;
 }
 
 .contenido{
