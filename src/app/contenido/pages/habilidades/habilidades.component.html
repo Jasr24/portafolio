@@ -1,11 +1,11 @@
 <div class="scroll container">
 
 
-    <h4>Habilidades técnicas</h4>
+    <h4 class="animate__animated animate__slideInRight">Habilidades técnicas</h4>
 
     <div class="row wrapper">
 
-        <div class="col-6 col-lg-3 cajas" *ngFor="let habilidad of tecnicas">
+        <div class="col-6 col-lg-3 cajas animate__animated animate__zoomInDown" *ngFor="let habilidad of tecnicas">
 
             <app-habilidad [habilidad]="habilidad"></app-habilidad>
 
@@ -15,11 +15,11 @@
 
     <br>
 
-    <h4>Habilidades blandas</h4>
+    <h4 class="animate__animated animate__slideInRight">Habilidades blandas</h4>
 
     <div class="row wrapper">
 
-        <div class="col-12 col-md-6 col-lg-3 cajas" *ngFor="let habilidad of blandas">
+        <div class="col-12 col-md-6 col-lg-3 cajas animate__animated animate__zoomInDown" *ngFor="let habilidad of blandas">
             
             <app-habilidad [habilidad]="habilidad"></app-habilidad>
             

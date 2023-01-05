@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { GithubService } from '../../services/github.service';
-import { map } from 'rxjs/operators';
 import { IGitMostrar } from '../../interfaces/general';
 
 @Component({

@@ -1,11 +1,11 @@
 .pie-pagina{
     height: 3rem;
     background: linear-gradient(var(--color-fondo), #1f3177);
-    animation-delay: 3.7s;
+    animation-delay: 1.5s;
 }
 
 .enlaces{
-    animation-delay: 4.2s;
+    animation-delay: 1.5s;
 }
 
 .links{

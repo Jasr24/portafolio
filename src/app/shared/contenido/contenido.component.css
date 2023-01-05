@@ -1,6 +1,8 @@
 .grupo{
     height: calc(100vh - 7.5rem);
     max-height: calc(100vh - 7.5rem);
+    border-radius: 10px;
+    animation-delay: 1.5s;
 }
 
 @media (max-width: 767px) {

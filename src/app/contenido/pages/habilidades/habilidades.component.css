@@ -2,6 +2,11 @@
     display: flex;
 }
 
+h4{
+    animation-delay: 0.2s;
+}
+
 .cajas{
     padding: 0.4rem;
+    animation-delay: 0.5s;
 }

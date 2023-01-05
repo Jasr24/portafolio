@@ -2,8 +2,13 @@
     display: flex;
 }
 
+h4{
+    animation-delay: 0.4s;
+}
+
 .cajas{
     padding: 0.5rem;
+    animation-delay: 0.7s;
 }
 
 .caja-complementaria{
