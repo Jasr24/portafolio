@@ -20,11 +20,11 @@ export class SidebarComponent implements AfterViewInit{
 
     const writer = new Typewriter(target, {
       loop: true,
-      typeColor: 'var(--texto)'
+      typeColor: 'var(--texto-principal)'
     });
     
     writer
-    .changeCursorColor('var(--texto)')
+    .changeCursorColor('var(--texto-parrafo)')
       .type('Soy desarrollador web.')
       .rest(4000)
       .start();

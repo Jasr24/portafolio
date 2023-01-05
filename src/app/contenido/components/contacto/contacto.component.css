@@ -2,7 +2,7 @@
     height: 100%;
     padding: 1rem 0;
     background-color: var(--color-fondo);
-    color: var(--texto);
+    color: var(--texto-principal);
 }
 
 .header{
@@ -16,7 +16,7 @@
 }
 
 .logo:hover {
-    color: var(--color-2);
+    color: var(--hover);
     font-size: 2rem;
 }
 

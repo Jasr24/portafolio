@@ -6,7 +6,7 @@
     align-content: center;
     height: 2.5rem;
     max-height: 2.5rem;
-    box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.29);
+    box-shadow: 12.5px 12.5px 10px var(--sombra-menu);
     font-size: 1.3rem;
 }
 
@@ -23,7 +23,7 @@
 
 .item-number{
     cursor: default;
-    color: var(--color-2);
+    color: var(--hover);
     padding: 0 .5rem;
 }
 
@@ -33,10 +33,10 @@
 }
 
 .hover{
-    color: var(--texto);
+    color: var(--texto-principal);
     transition: 1s;
 }
 
 .hover:hover{
-    color: var(--color-2);
+    color: var(--hover);
 }

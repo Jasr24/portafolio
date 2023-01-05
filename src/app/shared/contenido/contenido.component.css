@@ -13,11 +13,11 @@
 }
 
 mat-tab-group {
-    background-color: var(--color-grupo) !important;
+    background-color: var(--fondo-contenido) !important;
     padding: 5px;
 }  
 
 .mat-mdc-tab-group.mat-background-primary, .mat-mdc-tab-nav-bar.mat-background-primary {
-    --mat-mdc-tab-header-with-background-background-color: var(--color-grupo);
-    --mat-mdc-tab-header-with-background-foreground-color: var(--texto);
+    --mat-mdc-tab-header-with-background-background-color: var(--fondo-contenido);
+    --mat-mdc-tab-header-with-background-foreground-color: var(--texto-principal);
 }

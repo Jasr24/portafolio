@@ -4,7 +4,7 @@
 }
 
 .title{
-    color: var(--texto);
+    color: var(--texto-principal);
     overflow-wrap: break-word;
     font-size: 1.4rem;
     line-height: 1.6rem;
@@ -16,7 +16,7 @@
 
 hr{
     margin: 0 0 1rem 0;
-    color: var(--texto);
+    color: var(--texto-principal);
     border-top: 2px solid;
     opacity: .25;
 }
@@ -36,17 +36,17 @@ hr{
 }
 
 .url{
-    background-color: var(--color-grupo);
+    background-color: var(--fondo-contenido);
     margin: 0.5rem 0.5rem 0 0.5rem;
     padding: 1rem;
     border-radius: 5%;
-    color: var(--texto);
+    color: var(--texto-principal);
     text-decoration: none;
     transition: 1.5s;
 }
 
 .url:hover{
-    background-color: var(--color-2);
+    background-color: var(--hover);
 }
 
 i{

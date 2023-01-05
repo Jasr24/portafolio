@@ -14,7 +14,7 @@
 
 .title{
     font-size: 1.2rem; 
-    color: var(--texto);
+    color: var(--texto-principal);
     line-height: 1.4rem;
     margin-bottom: 0.5rem;
 }
@@ -40,16 +40,16 @@
     margin: 0 0.2rem;
     text-decoration: none;
     font-size: 1rem;
-    color: var(--texto);
+    color: var(--texto-principal);
     text-align: center;
     
-    background-color: var(--color-grupo);
+    background-color: var(--fondo-contenido);
     border-radius: 50%;      
     transition: 0.5s;
 }
 
 .credencial:hover{
-    color: var(--color-2);
+    color: var(--hover);
     font-size: 1.1rem;
 }
 

@@ -1,20 +1,21 @@
 :root {
     --color-fondo: #000051;
-    --color-2: #00e5ff;
-    --color-3 : #3f51b5;
-    --texto: rgb(255, 255, 255);
+    --texto-principal: rgb(255, 255, 255);
     --texto-parrafo: rgb(193, 205, 216);
-    --color-grupo: #0a0a64;
+    --fondo-contenido: #0a0a64;
+    --hover: #00e5ff;
+    --sombra-footer: #1f3177;
+    --sombra-menu: rgba(0, 0, 0, 0.29);
 }
 
 body{
     background-color: var(--color-fondo);
     font-family: 'Cabin', sans-serif;
-    color: var(--texto);
+    color: var(--texto-principal);
 }
 
  a, a:visited, a:hover, a:link {
-    color: var(--texto);
+    color: var(--texto-principal);
 }
 
 /* Arreglo de Scroll */
@@ -34,12 +35,12 @@ body{
   
    /* Estilos barra (thumb) de scroll */
   .scroll::-webkit-scrollbar-thumb {
-    background: var(--texto);
+    background: var(--texto-principal);
     border-radius: 4px;
   }
   
   .scroll::-webkit-scrollbar-thumb:active {
-    background-color: var(--texto);
+    background-color: var(--texto-principal);
   }
   
    /* Estilos track de scroll */

@@ -9,7 +9,7 @@
 }
 
 .icono:hover{
-    color: var(--color-2);
+    color: var(--hover);
 }
 
 .cv {
