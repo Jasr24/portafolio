@@ -35,7 +35,7 @@ export class ContactemeComponent {
     },
     {
       logo: '<i class="uil uil-phone"></i>',
-      nombre: 'Telfono movil',
+      nombre: 'Telefono movil',
       nombreLink: '+57 3219243790',
       url: 'https://api.whatsapp.com/send?phone=573219243790'
     }
