@@ -5,7 +5,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContenidoComponent } from './contenido/contenido.component';
 
-import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
 import { ContenidoModule } from '../contenido/contenido.module';
 
@@ -20,7 +19,6 @@ import { ContenidoModule } from '../contenido/contenido.module';
   ],
   imports: [
     CommonModule,
-    MatIconModule,
     MatTabsModule,
     ContenidoModule
   ],

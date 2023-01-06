@@ -23,6 +23,19 @@ export class MenuComponent {
     name: 'CV'
   }
   
+  ema:string = '<i class="uil uil-sun"></i>';
+  luna:string = '<i class="uil uil-moon"></i>';
+  sol:string = '<i class="uil uil-sun"></i>';
+
+  tema() {
+    document.body.classList.toggle('light');
+
+    if(document.body.classList.contains('light')){
+      this.ema = this.luna;
+    } else {
+      this.ema = this.sol;
+    }
+  } 
 }
 
 class LinkModel {
