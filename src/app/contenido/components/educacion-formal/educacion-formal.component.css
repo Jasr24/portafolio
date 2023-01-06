@@ -53,6 +53,14 @@
     font-size: 1.1rem;
 }
 
+.sin-credencial{
+    padding: 0.5rem;
+    margin: 0 0.2rem;
+    font-size: 1rem;
+    color: var(--texto-principal);
+    text-align: center;
+}
+
 .fechas{
     padding-top: 1rem;
     color: var(--texto-parrafo);

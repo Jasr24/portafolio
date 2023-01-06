@@ -1,17 +1,37 @@
 :root {
+    /* Colores con los que hacia al principio
     --color-fondo: #000051;
-    --texto-principal: rgb(255, 255, 255);
-    --texto-parrafo: rgb(193, 205, 216);
+    --texto-principal: #ffffff;
+    --texto-parrafo: #c0d2d8;
     --fondo-contenido: #0a0a64;
     --hover: #00e5ff;
     --sombra-footer: #1f3177;
-    --sombra-menu: rgba(0, 0, 0, 0.29);
+    --sombra-menu: #0a0a0a60; */
+
+  /* Tema claro aprovado */
+  --color-fondo: #fffbfb;
+  --texto-principal: #272424;
+  --texto-parrafo: #312b2b;
+  --fondo-contenido: #f3eded;
+  --hover: #2f8d71;
+  --sombra-footer: #0f0f0f4b;
+  --sombra-menu: #88858565;
+
+   /* Tema oscuro aprovado */
+   --color-fondo: #1a1717;
+   --texto-principal: #f5f5fd;
+   --texto-parrafo: #b1b1d1;
+   --fondo-contenido: #292323;
+   --hover: #bb9a2c;
+   --sombra-footer: #0a0a0a60;
+   --sombra-menu: #0a0a0a60;   
 }
 
 body{
     background-color: var(--color-fondo);
     font-family: 'Cabin', sans-serif;
     color: var(--texto-principal);
+    cursor: default;
 }
 
  a, a:visited, a:hover, a:link {

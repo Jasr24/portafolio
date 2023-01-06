@@ -7,6 +7,11 @@
 
 .header{
     padding: 0.5rem 1rem;
+    transition: 0.5s;
+}
+
+.header:hover{
+    color: var(--hover);
 }
 
 .logo{
@@ -25,6 +30,7 @@
 }
 
 .subtitle{
+    text-decoration: none;
     line-height: 14px;
     color: var(--texto-parrafo);
 }

@@ -10,6 +10,12 @@ export class FormacionComponent {
 
   formal: IEducacion[] = [
     {
+      logo: 'assets/unad.png',
+      institucion: 'Universidad nacional abierta y a distancia',
+      programa: 'Ingenieria de sistemas',
+      fechas: 'feb. 2023 - feb. 2028'
+    },
+    {
       logo: 'assets/sena.png',
       institucion: 'Servicio naional de apredizaje (SENA)',
       programa: 'Tecnologo en analisis y desarrollo de Software',
