@@ -39,6 +39,14 @@ export class FormacionComponent {
 
   complementarios: IEducacion[] = [
     {
+      logo: 'assets/udemy.png',
+      institucion: 'Udemy',
+      programa: 'Angular: De cero a experto',
+      fechas: 'ene. 2023',
+      duracion: '44hrs',
+      credencial: 'https://www.udemy.com/certificate/UC-ffcc17c3-a6a4-4e1a-bc59-734002e37bf3/'
+    },
+    {
       logo: 'assets/alura.jpg',
       institucion: 'Oracle Next Education',
       programa: 'Formación Front End G3- ONE',
