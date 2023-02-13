@@ -13,7 +13,7 @@ export class FormacionComponent {
       logo: 'assets/unad.png',
       institucion: 'Universidad nacional abierta y a distancia',
       programa: 'Ingenieria de sistemas',
-      fechas: 'feb. 2023 - feb. 2028'
+      fechas: 'ene. 2023 - feb. 2028'
     },
     {
       logo: 'assets/sena.png',

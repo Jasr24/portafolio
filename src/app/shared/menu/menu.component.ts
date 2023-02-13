@@ -23,17 +23,17 @@ export class MenuComponent {
     name: 'CV'
   }
   
-  ema:string = '<i class="uil uil-sun"></i>';
+  ema:string = '<i class="uil uil-moon"></i>';
   luna:string = '<i class="uil uil-moon"></i>';
   sol:string = '<i class="uil uil-sun"></i>';
 
   tema() {
-    document.body.classList.toggle('light');
+    document.body.classList.toggle('dark');
 
-    if(document.body.classList.contains('light')){
-      this.ema = this.luna;
-    } else {
+    if(document.body.classList.contains('dark')){
       this.ema = this.sol;
+    } else {
+      this.ema = this.luna;
     }
   } 
 }
