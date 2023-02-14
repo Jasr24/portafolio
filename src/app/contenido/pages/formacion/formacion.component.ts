@@ -39,6 +39,14 @@ export class FormacionComponent {
 
   complementarios: IEducacion[] = [
     {
+      logo: 'assets/alura.jpg',
+      institucion: 'Oracle Next Education',
+      programa: 'Bootcamp: Programa Oracle Next Education',
+      fechas: 'feb. 2023',
+      duracion: '294 hrs',
+      credencial: 'https://app.aluracursos.com/program/certificate/c7419d75-8436-4cd0-9e51-4f2281b1cd8f'
+    },
+    {
       logo: 'assets/udemy.png',
       institucion: 'Udemy',
       programa: 'Angular: De cero a experto',
