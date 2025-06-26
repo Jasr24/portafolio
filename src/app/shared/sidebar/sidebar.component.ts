@@ -25,7 +25,7 @@ export class SidebarComponent implements AfterViewInit{
     
     writer
     .changeCursorColor('var(--texto-parrafo)')
-      .type('Soy desarrollador web.')
+      .type('Desarrollador Web - Android.')
       .rest(4000)
       .start();
   }

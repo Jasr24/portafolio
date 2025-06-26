@@ -10,7 +10,7 @@ export class FooterComponent {
 
   links: Array<ILinkModel> = [
     {
-      link: 'https://www.linkedin.com/in/joséandressaavedraromero/',
+      link: 'https://www.linkedin.com/in/jose-andres-saavedra-romero-developer',
       icon: '<i class="uil uil-linkedin"></i>'
     },
     {

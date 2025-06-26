@@ -17,7 +17,7 @@ export class FormacionComponent {
     },
     {
       logo: 'assets/sena.png',
-      institucion: 'Servicio naional de apredizaje (SENA)',
+      institucion: 'Servicio nacional de apredizaje (SENA)',
       programa: 'Tecnologo en analisis y desarrollo de Software',
       fechas: 'nov. 2022 - feb. 2025'
     },
@@ -28,13 +28,13 @@ export class FormacionComponent {
       credencial: 'https://drive.google.com/file/d/1BnZbzo50VdUF7nIzHTtXZLqbis4C-gEs/view?usp=sharing',
       fechas: 'jul. 2019 - ago. 2020'
     },
-    {
-      logo: 'assets/sena.png',
-      institucion: 'Servicio naional de apredizaje (SENA)',
-      programa: 'Tecnologo en control ambiental',
-      credencial: 'https://drive.google.com/file/d/1LRW6Nkch8Ke607SzySX5KVCpmVIj8b9k/view?usp=sharing',
-      fechas: 'feb. 2015 - jul. 2017'
-    }
+    // {
+    //   logo: 'assets/sena.png',
+    //   institucion: 'Servicio nacional de apredizaje (SENA)',
+    //   programa: 'Tecnologo en control ambiental',
+    //   credencial: 'https://drive.google.com/file/d/1LRW6Nkch8Ke607SzySX5KVCpmVIj8b9k/view?usp=sharing',
+    //   fechas: 'feb. 2015 - jul. 2017'
+    // }
   ]
 
   complementarios: IEducacion[] = [

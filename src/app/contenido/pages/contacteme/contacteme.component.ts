@@ -12,8 +12,8 @@ export class ContactemeComponent {
     {
       logo: '<i class="uil uil-linkedin"></i>',
       nombre: 'Linkedin',
-      nombreLink: 'https://www.linkedin.com/in/joséandressaavedraromero/',
-      url: 'https://www.linkedin.com/in/joséandressaavedraromero/'
+      nombreLink: 'https://www.linkedin.com/in/jose-andres-saavedra-romero-developer',
+      url: 'https://www.linkedin.com/in/jose-andres-saavedra-romero-developer'
     },
     {
       logo: '<i class="uil uil-github"></i>',

@@ -14,17 +14,25 @@ export class HabilidadesComponent {
       nombre: 'Angular'
     },
     {
+      logo: 'assets/typescript.webp',
+      nombre: 'TypeScript'
+    },
+    {
       logo: 'assets/js.png',
       nombre: 'JavaScript'
+    },
+    {
+      logo: 'assets/kotlin.png',
+      nombre: 'Kotlin'
     },
     {
       logo: 'assets/java.png',
       nombre: 'Java'
     },
-    {
-      logo: 'assets/springboot.png',
-      nombre: 'SpringBoot'
-    },
+    // {
+    //   logo: 'assets/springboot.png',
+    //   nombre: 'SpringBoot'
+    // },
     {
       logo: 'assets/mysql.png',
       nombre: 'Mysql'

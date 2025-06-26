@@ -9,17 +9,19 @@ export class MenuComponent {
 
   links: Array<LinkModel> = [
     {
-      link: 'https://www.linkedin.com/in/joséandressaavedraromero/',
+      name:"1. Linkedin:",
+      link: 'https://www.linkedin.com/in/jose-andres-saavedra-romero-developer',
       icon: '<i class="uil uil-linkedin"></i>'
     },
     {
+      name:"2. Correo:",
       link: 'mailto:josex.1995@hotmail.com',
       icon: '<i class="uil uil-envelope"></i>'
     }
   ]
 
   curriculum = {
-    link: 'assets/HojaDeVida.pdf',
+    link: 'assets/HojaDeVidaJoseAndres.pdf',
     name: 'CV'
   }
   
@@ -39,6 +41,7 @@ export class MenuComponent {
 }
 
 class LinkModel {
+  name!: string;
   link!: string;
   icon!: string;
 }
