@@ -12,14 +12,15 @@ export class FormacionComponent {
     {
       logo: 'assets/unad.png',
       institucion: 'Universidad nacional abierta y a distancia',
-      programa: 'Ingenieria de sistemas',
+      programa: 'Ingeniería de sistemas',
       fechas: 'ene. 2023 - feb. 2028'
     },
     {
       logo: 'assets/sena.png',
       institucion: 'Servicio nacional de apredizaje (SENA)',
-      programa: 'Tecnologo en analisis y desarrollo de Software',
-      fechas: 'nov. 2022 - feb. 2025'
+      programa: 'Tecnólogo en análisis y desarrollo de Software',
+      credencial: 'https://drive.google.com/file/d/1SKdwZ68mC6YPZnNu2VCVg4YNot9SSTqt/view?usp=drive_link',
+      fechas: 'nov. 2022 - ago. 2025'
     },
     {
       logo: 'assets/politecnico.png',
@@ -31,7 +32,7 @@ export class FormacionComponent {
     // {
     //   logo: 'assets/sena.png',
     //   institucion: 'Servicio nacional de apredizaje (SENA)',
-    //   programa: 'Tecnologo en control ambiental',
+    //   programa: 'Tecnólogo en control ambiental',
     //   credencial: 'https://drive.google.com/file/d/1LRW6Nkch8Ke607SzySX5KVCpmVIj8b9k/view?usp=sharing',
     //   fechas: 'feb. 2015 - jul. 2017'
     // }
