@@ -18,17 +18,25 @@ export class HabilidadesComponent {
       nombre: 'TypeScript'
     },
     {
-      logo: 'assets/js.png',
-      nombre: 'JavaScript'
+      logo: 'assets/html.png',
+      nombre: 'Html5'
+    },
+    {
+      logo: 'assets/css.png',
+      nombre: 'CSS'
     },
     {
       logo: 'assets/kotlin.png',
       nombre: 'Kotlin'
     },
-    {
+    /* {
+      logo: 'assets/js.png',
+      nombre: 'JavaScript'
+    }, */
+    /* {
       logo: 'assets/java.png',
       nombre: 'Java'
-    },
+    }, */
     // {
     //   logo: 'assets/springboot.png',
     //   nombre: 'SpringBoot'
