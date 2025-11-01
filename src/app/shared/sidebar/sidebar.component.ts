@@ -12,7 +12,7 @@ export class SidebarComponent implements AfterViewInit{
     this.initEffect();
   }
 
-  @ViewChild('asTitle') 
+  @ViewChild('asTitle')
   asTitle!: ElementRef
 
   initEffect = () => {
@@ -22,10 +22,10 @@ export class SidebarComponent implements AfterViewInit{
       loop: true,
       typeColor: 'var(--texto-principal)'
     });
-    
+
     writer
     .changeCursorColor('var(--texto-parrafo)')
-      .type('Desarrollador Web - Android.')
+      .type('Desarrollador Web - Mobile.')
       .rest(4000)
       .start();
   }

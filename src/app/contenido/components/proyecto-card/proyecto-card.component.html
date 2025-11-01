@@ -9,12 +9,12 @@
     </mat-card-header>
 
     <mat-card-content>
-        <p class="col mt-2" class="descripcion">{{repo.description}}</p>
+        <p class="col mt-2" class="descripcion" [innerHTML]="repo.description"></p>
 
         <div class="row contenido">
 
-            <a class="col url" [href]="repo.html_url" target="_blank">GitHub <i class="uil uil-external-link-alt"></i></a>
-            <a class="col url" [href]="repo.page" target="_blank">Page <i class="uil uil-external-link-alt"></i></a>
+            <a class="col url" [href]="repo.html_url" target="_blank" *ngIf="repo.html_url != ''">GitHub <i class="uil uil-external-link-alt"></i></a>
+            <a class="col url" [href]="repo.page" target="_blank" *ngIf="repo.page != ''">Page <i class="uil uil-external-link-alt"></i></a>
 
         </div>
 

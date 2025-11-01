@@ -12,7 +12,7 @@ export class GithubService {
   //readonly: significa solo lectura
   private readonly url:string = 'https://api.github.com/users/Jasr24/repos';
 
-  constructor(private httpClient: HttpClient) { 
+  constructor(private httpClient: HttpClient) {
   }
 
   getRespositorios(): Observable<IGitMostrar[]> {
@@ -25,7 +25,8 @@ export class GithubService {
               description: repositorio.description,
               topics: repositorio.topics,
               html_url: repositorio.html_url,
-              created_at: repositorio.created_at
+              created_at: repositorio.created_at,
+              page: repositorio.page ?? ''
             }
           })
         })
