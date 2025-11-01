@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Para volver a publicar en Git Hub pages
+
+1. Ejecutar en la consola: ng build --output-path dist --base-href https://jasr24.github.io/portafolio/
+2. Asegurarse de tener instalado la dependencia: npm install -g angular-cli-ghpages
+3. Ejecutar en consola: npx angular-cli-ghpages --dir=dist
+4. Espera 1 minuto y entra al sitio
