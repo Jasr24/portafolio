@@ -21,10 +21,10 @@ export class MenuComponent {
   ]
 
   curriculum = {
-    link: 'assets/HojaDeVidaJoseAndres.pdf',
+    link: 'assets/HojaDeVidaJoseAndresV2.pdf',
     name: 'CV'
   }
-  
+
   ema:string = '<i class="uil uil-moon"></i>';
   luna:string = '<i class="uil uil-moon"></i>';
   sol:string = '<i class="uil uil-sun"></i>';
@@ -37,7 +37,7 @@ export class MenuComponent {
     } else {
       this.ema = this.luna;
     }
-  } 
+  }
 }
 
 class LinkModel {
